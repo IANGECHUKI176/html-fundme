@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: "Roboto";
+        
+      }
+      #connectButton{
+        border:none;
+        padding:10px 30px;
+        cursor: pointer;
+        color:white;
+        background-color: royalblue;
+        border-radius: 30px;
+        font-size: 16px;
+      }
+         #fundButton{
+        border:none;
+        padding:10px 30px;
+        cursor: pointer;
+        color:white;
+        background-color: red;
+        border-radius: 30px;
+        font-size: 16px;
+      }
+      #balanceButton{
+     border:none;
+        padding:10px 30px;
+        cursor: pointer;
+        color:white;
+        background-color: gray;
+        border-radius: 30px;
+        font-size: 16px;
+      }
+    </style>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+        type="application/javascript"></script>
+  </head>
+  <body>
+
+ FundMe App
+    
+    <button id="connectButton" >Connect</button>
+    <button id="fundButton" ">Fund</button>
+    <button id="balanceButton">Balance</button>
+    <button id="withdrawButton">withdrawButton</button>
+    <label for="fund">Eth Amount</label>
+    <input type="text" name="" id="ethAmount" placeholder="0.1">
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
